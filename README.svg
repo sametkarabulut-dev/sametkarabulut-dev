@@ -1,0 +1,207 @@
+<svg width="800" height="920" viewBox="0 0 800 920" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0d1117; }
+      .bg2 { fill: #161b22; }
+      .border { stroke: #1e2a3a; }
+      .border2 { stroke: #30363d; }
+      .corner { stroke: #58a6ff; }
+      .block { fill: #58a6ff; }
+      .blocktxt { fill: #0d1117; }
+      .nametxt { fill: #e6edf3; }
+      .cursor { fill: #58a6ff; }
+      .tagline { fill: #e6edf3; }
+      .section-title { fill: #58a6ff; }
+      .section-title-box { fill: #0d1f38; stroke: #58a6ff; }
+      .label { fill: #8b949e; }
+      .value { fill: #e6edf3; }
+      .skill-box { fill: #161b22; stroke: #30363d; }
+      .skill-txt { fill: #e6edf3; }
+      .skill-dot { fill: #58a6ff; }
+      .proj-box { fill: #161b22; stroke: #1e2a3a; }
+      .proj-title { fill: #e6edf3; }
+      .proj-desc { fill: #8b949e; }
+      .proj-tag { fill: #0d1f38; stroke: #58a6ff; }
+      .proj-tag-txt { fill: #58a6ff; }
+      .link-txt { fill: #58a6ff; }
+      .scanline { fill: #58a6ff; }
+      .h-line { stroke: #1e2a3a; }
+    }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #f6f8fa; }
+      .bg2 { fill: #ffffff; }
+      .border { stroke: #c8d1da; }
+      .border2 { stroke: #d0d7de; }
+      .corner { stroke: #0969da; }
+      .block { fill: #0969da; }
+      .blocktxt { fill: #ffffff; }
+      .nametxt { fill: #1a1a2e; }
+      .cursor { fill: #0969da; }
+      .tagline { fill: #1a1a2e; }
+      .section-title { fill: #0969da; }
+      .section-title-box { fill: #dbeafe; stroke: #0969da; }
+      .label { fill: #57606a; }
+      .value { fill: #1a1a2e; }
+      .skill-box { fill: #ffffff; stroke: #d0d7de; }
+      .skill-txt { fill: #1a1a2e; }
+      .skill-dot { fill: #0969da; }
+      .proj-box { fill: #ffffff; stroke: #c8d1da; }
+      .proj-title { fill: #1a1a2e; }
+      .proj-desc { fill: #57606a; }
+      .proj-tag { fill: #dbeafe; stroke: #0969da; }
+      .proj-tag-txt { fill: #0969da; }
+      .link-txt { fill: #0969da; }
+      .scanline { fill: #1a1a2e; }
+      .h-line { stroke: #c8d1da; }
+    }
+  </style>
+  <pattern id="scan" x="0" y="0" width="800" height="4" patternUnits="userSpaceOnUse">
+    <rect x="0" y="3" width="800" height="1" class="scanline" opacity="0.03"/>
+  </pattern>
+</defs>
+
+<rect width="800" height="920" class="bg"/>
+<rect width="800" height="920" fill="url(#scan)"/>
+<rect x="1" y="1" width="798" height="918" rx="6" fill="none" class="border" stroke-width="1"/>
+
+<path d="M18 18 L18 36 M18 18 L36 18" class="corner" stroke-width="1.5" fill="none" opacity="0.7"/>
+<path d="M782 18 L782 36 M782 18 L764 18" class="corner" stroke-width="1.5" fill="none" opacity="0.7"/>
+<path d="M18 902 L18 884 M18 902 L36 902" class="corner" stroke-width="1.5" fill="none" opacity="0.7"/>
+<path d="M782 902 L782 884 M782 902 L764 902" class="corner" stroke-width="1.5" fill="none" opacity="0.7"/>
+
+<!-- BANNER: 5x78 + 4x8 = 422px, start=(800-422)/2=189 -->
+<rect x="189" y="28" width="78" height="78" rx="3" class="block"/>
+<text x="228" y="84" font-family="'Courier New',monospace" font-weight="900" font-size="62" class="blocktxt" text-anchor="middle">S</text>
+<rect x="275" y="28" width="78" height="78" rx="3" class="block"/>
+<text x="314" y="84" font-family="'Courier New',monospace" font-weight="900" font-size="62" class="blocktxt" text-anchor="middle">A</text>
+<rect x="361" y="28" width="78" height="78" rx="3" class="block"/>
+<text x="400" y="84" font-family="'Courier New',monospace" font-weight="900" font-size="62" class="blocktxt" text-anchor="middle">M</text>
+<rect x="447" y="28" width="78" height="78" rx="3" class="block"/>
+<text x="486" y="84" font-family="'Courier New',monospace" font-weight="900" font-size="62" class="blocktxt" text-anchor="middle">E</text>
+<rect x="533" y="28" width="78" height="78" rx="3" class="block"/>
+<text x="572" y="84" font-family="'Courier New',monospace" font-weight="900" font-size="62" class="blocktxt" text-anchor="middle">T</text>
+
+<text x="400" y="128" font-family="'Courier New',monospace" font-size="12" class="nametxt" text-anchor="middle" letter-spacing="6" opacity="0.9">M. SAMET KARABULUT</text>
+<rect x="550" y="116" width="7" height="12" class="cursor">
+  <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+</rect>
+<text x="400" y="150" font-family="'Courier New',monospace" font-size="10" class="tagline" text-anchor="middle" letter-spacing="5" opacity="0.35">RED TEAM  ·  BUILDER  ·  KEPLL LTD</text>
+
+<line x1="48" y1="168" x2="752" y2="168" class="h-line" stroke-width="0.5"/>
+
+<!-- WHOAMI -->
+<rect x="48" y="182" width="104" height="22" rx="3" class="section-title-box" stroke-width="0.75"/>
+<text x="100" y="197" font-family="'Courier New',monospace" font-size="11" class="section-title" text-anchor="middle" letter-spacing="2">$ whoami</text>
+
+<rect x="48" y="214" width="704" height="108" rx="4" class="bg2" fill-opacity="0.6"/>
+<rect x="48" y="214" width="704" height="108" rx="4" fill="none" class="border2" stroke-width="0.5"/>
+<text x="68" y="234" font-family="'Courier New',monospace" font-size="11" class="label">NAME</text>
+<text x="160" y="234" font-family="'Courier New',monospace" font-size="11" class="value">Muhammet Samet Karabulut</text>
+<text x="68" y="254" font-family="'Courier New',monospace" font-size="11" class="label">ROLE</text>
+<text x="160" y="254" font-family="'Courier New',monospace" font-size="11" class="value">Red Team Operator  |  Founder  |  SaaS Builder</text>
+<text x="68" y="274" font-family="'Courier New',monospace" font-size="11" class="label">COMPANY</text>
+<text x="160" y="274" font-family="'Courier New',monospace" font-size="11" class="value">Kepll LTD — London, UK</text>
+<text x="68" y="294" font-family="'Courier New',monospace" font-size="11" class="label">FOCUS</text>
+<text x="160" y="294" font-family="'Courier New',monospace" font-size="11" class="value">Offensive Security  ·  SaaS Products  ·  Open Source</text>
+<text x="68" y="314" font-family="'Courier New',monospace" font-size="11" class="label">WEBSITE</text>
+<text x="160" y="314" font-family="'Courier New',monospace" font-size="11" class="link-txt">sametkarabulut.com.tr</text>
+
+<line x1="48" y1="338" x2="752" y2="338" class="h-line" stroke-width="0.5"/>
+
+<!-- EXPERTISE -->
+<rect x="48" y="352" width="130" height="22" rx="3" class="section-title-box" stroke-width="0.75"/>
+<text x="113" y="367" font-family="'Courier New',monospace" font-size="11" class="section-title" text-anchor="middle" letter-spacing="2">./expertise</text>
+
+<rect x="48" y="384" width="220" height="128" rx="4" class="skill-box" stroke-width="0.5"/>
+<text x="68" y="402" font-family="'Courier New',monospace" font-size="10" class="section-title" letter-spacing="1" opacity="0.8">[ OFFENSIVE SECURITY ]</text>
+<line x1="68" y1="409" x2="248" y2="409" class="h-line" stroke-width="0.5"/>
+<circle cx="76" cy="424" r="2.5" class="skill-dot"/>
+<text x="88" y="428" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Red Teaming</text>
+<circle cx="76" cy="444" r="2.5" class="skill-dot"/>
+<text x="88" y="448" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Penetration Testing</text>
+<circle cx="76" cy="464" r="2.5" class="skill-dot"/>
+<text x="88" y="468" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Secure Code Review</text>
+<circle cx="76" cy="484" r="2.5" class="skill-dot"/>
+<text x="88" y="488" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Network Exploitation</text>
+<circle cx="76" cy="504" r="2.5" class="skill-dot"/>
+<text x="88" y="508" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Vulnerability Research</text>
+
+<rect x="290" y="384" width="220" height="128" rx="4" class="skill-box" stroke-width="0.5"/>
+<text x="310" y="402" font-family="'Courier New',monospace" font-size="10" class="section-title" letter-spacing="1" opacity="0.8">[ PRODUCT &amp; ENGINEERING ]</text>
+<line x1="310" y1="409" x2="490" y2="409" class="h-line" stroke-width="0.5"/>
+<circle cx="318" cy="424" r="2.5" class="skill-dot"/>
+<text x="330" y="428" font-family="'Courier New',monospace" font-size="11" class="skill-txt">SaaS Architecture</text>
+<circle cx="318" cy="444" r="2.5" class="skill-dot"/>
+<text x="330" y="448" font-family="'Courier New',monospace" font-size="11" class="skill-txt">ML / AI Integration</text>
+<circle cx="318" cy="464" r="2.5" class="skill-dot"/>
+<text x="330" y="468" font-family="'Courier New',monospace" font-size="11" class="skill-txt">API Design</text>
+<circle cx="318" cy="484" r="2.5" class="skill-dot"/>
+<text x="330" y="488" font-family="'Courier New',monospace" font-size="11" class="skill-txt">E-commerce Systems</text>
+<circle cx="318" cy="504" r="2.5" class="skill-dot"/>
+<text x="330" y="508" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Blockchain / Web3</text>
+
+<rect x="532" y="384" width="220" height="128" rx="4" class="skill-box" stroke-width="0.5"/>
+<text x="552" y="402" font-family="'Courier New',monospace" font-size="10" class="section-title" letter-spacing="1" opacity="0.8">[ CURRENT FOCUS ]</text>
+<line x1="552" y1="409" x2="732" y2="409" class="h-line" stroke-width="0.5"/>
+<circle cx="560" cy="424" r="2.5" class="skill-dot"/>
+<text x="572" y="428" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Kepll Commerce</text>
+<circle cx="560" cy="444" r="2.5" class="skill-dot"/>
+<text x="572" y="448" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Open Source Tools</text>
+<circle cx="560" cy="464" r="2.5" class="skill-dot"/>
+<text x="572" y="468" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Red Team Research</text>
+<circle cx="560" cy="484" r="2.5" class="skill-dot"/>
+<text x="572" y="488" font-family="'Courier New',monospace" font-size="11" class="skill-txt">Security Tooling</text>
+
+<line x1="48" y1="528" x2="752" y2="528" class="h-line" stroke-width="0.5"/>
+
+<!-- PROJECTS -->
+<rect x="48" y="542" width="130" height="22" rx="3" class="section-title-box" stroke-width="0.75"/>
+<text x="113" y="557" font-family="'Courier New',monospace" font-size="11" class="section-title" text-anchor="middle" letter-spacing="2">./projects</text>
+
+<rect x="48" y="574" width="704" height="96" rx="4" class="proj-box" stroke-width="0.5"/>
+<text x="68" y="596" font-family="'Courier New',monospace" font-size="13" class="proj-title" font-weight="700">Kepll Commerce</text>
+<rect x="200" y="582" width="48" height="16" rx="8" class="proj-tag" stroke-width="0.5"/>
+<text x="224" y="594" font-family="'Courier New',monospace" font-size="9" class="proj-tag-txt" text-anchor="middle">SAAS</text>
+<text x="68" y="618" font-family="'Courier New',monospace" font-size="11" class="proj-desc">AI-powered platform for hybrid retailers. Intelligent pricing,</text>
+<text x="68" y="634" font-family="'Courier New',monospace" font-size="11" class="proj-desc">demand forecasting, inventory management and POS integrations.</text>
+<a href="https://commerce.kepll.com">
+  <text x="68" y="658" font-family="'Courier New',monospace" font-size="11" class="link-txt">→ commerce.kepll.com</text>
+</a>
+
+<rect x="48" y="680" width="704" height="96" rx="4" class="proj-box" stroke-width="0.5"/>
+<text x="68" y="702" font-family="'Courier New',monospace" font-size="13" class="proj-title" font-weight="700">KREEL — Pentest Suite</text>
+<rect x="258" y="688" width="80" height="16" rx="8" class="proj-tag" stroke-width="0.5"/>
+<text x="298" y="700" font-family="'Courier New',monospace" font-size="9" class="proj-tag-txt" text-anchor="middle">OPEN SOURCE</text>
+<text x="68" y="722" font-family="'Courier New',monospace" font-size="11" class="proj-desc">Open-source penetration testing automation framework.</text>
+<text x="68" y="738" font-family="'Courier New',monospace" font-size="11" class="proj-desc">Recon · Vuln Scanning · Exploitation Chaining · Reporting</text>
+<a href="https://sametkarabulut.com.tr">
+  <text x="68" y="762" font-family="'Courier New',monospace" font-size="11" class="link-txt">→ sametkarabulut.com.tr</text>
+</a>
+
+<line x1="48" y1="790" x2="752" y2="790" class="h-line" stroke-width="0.5"/>
+
+<!-- CONNECT -->
+<rect x="48" y="804" width="114" height="22" rx="3" class="section-title-box" stroke-width="0.75"/>
+<text x="105" y="819" font-family="'Courier New',monospace" font-size="11" class="section-title" text-anchor="middle" letter-spacing="2">./connect</text>
+
+<a href="https://sametkarabulut.com.tr">
+  <text x="68" y="848" font-family="'Courier New',monospace" font-size="12" class="link-txt">sametkarabulut.com.tr</text>
+</a>
+<text x="248" y="848" font-family="'Courier New',monospace" font-size="11" class="label">Security Research &amp; Tooling</text>
+
+<a href="https://github.com/Kepll-Ltd">
+  <text x="68" y="870" font-family="'Courier New',monospace" font-size="12" class="link-txt">github.com/Kepll-Ltd</text>
+</a>
+<text x="248" y="870" font-family="'Courier New',monospace" font-size="11" class="label">Company</text>
+
+<a href="https://commerce.kepll.com">
+  <text x="68" y="892" font-family="'Courier New',monospace" font-size="12" class="link-txt">commerce.kepll.com</text>
+</a>
+<text x="248" y="892" font-family="'Courier New',monospace" font-size="11" class="label">Product</text>
+
+<rect x="0" y="0" width="800" height="920" class="bg" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0;0;0;0;0.05;0;0;0;0.03;0;0;0" keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.65;0.7;0.8;0.9;0.93;0.96;0.98;1" dur="13s" repeatCount="indefinite"/>
+</rect>
+
+</svg>
