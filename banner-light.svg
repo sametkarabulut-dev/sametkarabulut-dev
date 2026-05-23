@@ -1,0 +1,39 @@
+<svg width="800" height="170" viewBox="0 0 800 170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="scan" x="0" y="0" width="800" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="3" width="800" height="1" fill="#1a1a2e" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="170" fill="#f6f8fa"/>
+  <rect width="800" height="170" fill="url(#scan)"/>
+  <rect x="1" y="1" width="798" height="168" rx="5" fill="none" stroke="#c8d1da" stroke-width="1"/>
+
+  <path d="M16 16 L16 32 M16 16 L32 16" stroke="#1a1a2e" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M784 16 L784 32 M784 16 L768 16" stroke="#1a1a2e" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M16 154 L16 138 M16 154 L32 154" stroke="#1a1a2e" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M784 154 L784 138 M784 154 L768 154" stroke="#1a1a2e" stroke-width="1.5" fill="none" opacity="0.5"/>
+
+  <rect x="140" y="24" width="78" height="80" rx="3" fill="#1a1a2e"/>
+  <text x="179" y="82" font-family="'Courier New',monospace" font-weight="900" font-size="64" fill="#f6f8fa" text-anchor="middle">S</text>
+
+  <rect x="226" y="24" width="78" height="80" rx="3" fill="#1a1a2e"/>
+  <text x="265" y="82" font-family="'Courier New',monospace" font-weight="900" font-size="64" fill="#f6f8fa" text-anchor="middle">A</text>
+
+  <rect x="312" y="24" width="78" height="80" rx="3" fill="#1a1a2e"/>
+  <text x="351" y="82" font-family="'Courier New',monospace" font-weight="900" font-size="64" fill="#f6f8fa" text-anchor="middle">M</text>
+
+  <rect x="398" y="24" width="78" height="80" rx="3" fill="#1a1a2e"/>
+  <text x="437" y="82" font-family="'Courier New',monospace" font-weight="900" font-size="64" fill="#f6f8fa" text-anchor="middle">E</text>
+
+  <rect x="484" y="24" width="78" height="80" rx="3" fill="#1a1a2e"/>
+  <text x="523" y="82" font-family="'Courier New',monospace" font-weight="900" font-size="64" fill="#f6f8fa" text-anchor="middle">T</text>
+
+  <text x="400" y="124" font-family="'Courier New',monospace" font-size="12" fill="#1a1a2e" text-anchor="middle" letter-spacing="6" opacity="0.75">M. SAMET KARABULUT</text>
+
+  <rect x="548" y="112" width="7" height="12" fill="#1a1a2e">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="400" y="148" font-family="'Courier New',monospace" font-size="10" fill="#1a1a2e" text-anchor="middle" letter-spacing="5" opacity="0.3">RED TEAM  ·  BUILDER  ·  KEPLL LTD</text>
+</svg>
